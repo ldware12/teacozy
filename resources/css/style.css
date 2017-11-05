@@ -5,6 +5,7 @@ body{
   font-size: 22px;
   opacity: .9;
   text-align: center;
+  margin: 0px;
 }
 
 .flex-container {
@@ -22,6 +23,7 @@ body{
   border-color: seashell;
   width: 100%;
   align-items: center;
+  background-color: black;
 }
 
 #header img {
@@ -44,16 +46,68 @@ nav span {
   display: flex;
   padding-top: 70px;
   width: 1200px;
+  margin: auto;
 }
 
 #mission {
   background-image: url(../images/spices.jpg);
   padding-top: 70px;
   height: 700px;
+  width: 1200px;
   display: flex;
 }
 
 #mission .content {
   background-color: black;
-  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+}
+
+#featuredtea {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#locations {
+  background-image: url(../images/coffee.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  padding: 10px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
 }

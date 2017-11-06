@@ -42,6 +42,10 @@ nav span {
   padding-right: 20px;
 }
 
+a:link {
+  color: white;
+}
+
 .main {
   display: flex;
   padding-top: 70px;
@@ -110,4 +114,17 @@ h2, h4 {
 
 .flex-container.locations {
   padding-top: 5px;
+}
+
+.contact {
+  height: 200px;
+  margin: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 30px;
 }
